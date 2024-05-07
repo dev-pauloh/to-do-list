@@ -7,6 +7,8 @@
  - Sistema de login com listagem de tarefas  personalizada  de acordo com o usuário logado;
  - Sistema de autenticação e autorização JWT com senhas encriptadas no banco de dados;
  - CRUD completo das tarefas via requisições HTTP;
+ - Padronização dos resultados na serialização para o JSON;	
+ - Tratamento e padronização de erros;
 
 
 ## Inicialização
