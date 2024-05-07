@@ -58,7 +58,7 @@ void ConfigureAuthentication(WebApplicationBuilder builder)
     //configura a autorizacao no swagger
     builder.Services.AddSwaggerGen(c =>
     {
-        c.SwaggerDoc("v1", new OpenApiInfo { Title = "APIContagem", Version = "v1" });
+        c.SwaggerDoc("v1", new OpenApiInfo { Title = "To Do - API", Version = "v1" });
         c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
         {
             Description =
